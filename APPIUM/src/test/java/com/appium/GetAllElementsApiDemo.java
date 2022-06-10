@@ -30,11 +30,15 @@ public class GetAllElementsApiDemo {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.findElementById("com.android.permissioncontroller:id/continue_button").click();
 		driver.findElementById("android:id/button1").click();
-		List<WebElement >list= driver.findElementsByClassName("android.widget.TextView");
+		List<WebElement> list= driver.findElementsByClassName("android.widget.TextView");
 		for(WebElement wb:list)
 		{
 			System.out.println(wb.getText());
 		}
+	    
+	    
+		
+		
 		
 		
 	}

@@ -9,13 +9,13 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,856</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,007</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.appium.Scroll</td><td><a href="#m0">scrollaction</a></td><td rowspan="1">1653306552234</td><td rowspan="1">3523</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.appium.InstallApiDemo</td><td><a href="#m0">demo</a></td><td rowspan="1">1654682992388</td><td rowspan="1">2832</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.appium.Scroll#scrollaction</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+<h2>Default test</h2><h3 id="m0">com.appium.InstallApiDemo#demo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;DESKTOP-H258E1F&apos;, ip: &apos;172.18.42.49&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+System info: host: &apos;DESKTOP-H258E1F&apos;, ip: &apos;172.18.42.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: driver.version: AndroidDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
@@ -28,7 +28,7 @@ Driver info: driver.version: AndroidDriver
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
-	at com.appium.Scroll.scrollaction(Scroll.java:28)
+	at com.appium.InstallApiDemo.demo(InstallApiDemo.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,7 +59,7 @@ Driver info: driver.version: AndroidDriver
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4723 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;DESKTOP-H258E1F&apos;, ip: &apos;172.18.42.49&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+System info: host: &apos;DESKTOP-H258E1F&apos;, ip: &apos;172.18.42.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: driver.version: AndroidDriver
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)

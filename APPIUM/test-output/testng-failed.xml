@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.Scroll">
+      <class name="com.appium.InstallApiDemo">
         <methods>
-          <include name="scrollaction"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- com.appium.Scroll -->
+      </class> <!-- com.appium.InstallApiDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

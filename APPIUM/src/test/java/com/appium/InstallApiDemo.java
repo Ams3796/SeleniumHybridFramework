@@ -28,7 +28,7 @@ public class InstallApiDemo {
 		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		
 		
-		
+	 
 		
 	}
 }
